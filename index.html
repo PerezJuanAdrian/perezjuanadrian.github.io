@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Curriculum Vitae</h1>
+	  <a href="#" id="nav1">Mi CV</a> l
+	  <a href="#" id="nav2">Crear/Modificar CV</a> l 
+	  <a href="#" id="nav3">Borrar Datos CV</a> l 
+    </header>
+    
+    <main>	
+		<section id="panel_form">
+		  <form>
+			<fieldset>
+			  <legend>Datos personales</legend>
+			  <div>
+				<label for="nombre">Nombre completo:</label>
+				<input type="text" id="nombre" name="nombre">
+			  </div>
+			  <div>
+				<label for="fecha_nacimiento">Fecha de nacimiento:</label>
+				<input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+			  </div>
+			  <div>
+				<label for="direccion">Dirección:</label>
+				<input type="text" id="direccion" name="direccion">
+			  </div>
+			  <div>
+				<label for="telefono">Teléfono:</label>
+				<input type="tel" id="telefono" name="telefono">
+			  </div>
+			  <div>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+			  </div>
+			</fieldset>
+			
+			<fieldset>
+			  <legend>Educación</legend>
+			  <div>
+				<label for="institucion">Institución:</label>
+				<input type="text" id="institucion" name="institucion">
+			  </div>
+			  <div>
+				<label for="titulo">Título:</label>
+				<input type="text" id="titulo" name="titulo">
+			  </div>
+			  <div>
+				<label for="fecha_titulo">Fecha de obtención del título:</label>
+				<input type="date" id="fecha_titulo" name="fecha_titulo">
+			  </div>
+			</fieldset>
+			
+			<fieldset>
+			  <legend>Experiencia laboral</legend>
+			  <div>
+				<label for="empresa">Empresa:</label>
+				<input type="text" id="empresa" name="empresa">
+			  </div>
+			  <div>
+				<label for="puesto">Puesto:</label>
+				<input type="text" id="puesto" name="puesto">
+			  </div>
+			  <div>
+				<label for="fecha_inicio">Fecha de inicio:</label>
+				<input type="date" id="fecha_inicio" name="fecha_inicio">
+			  </div>
+			  <div>
+				<label for="fecha_fin">Fecha de fin:</label>
+				<input type="date" id="fecha_fin" name="fecha_fin">
+			  </div>
+			</fieldset>
+			
+			<button type="submit">Guardar</button>
+		  </form>
+		  
+		</section>
+		
+		
+		<section id="panel_datos">
+			<!-- Aqui se muestran los datos del CV -->
+			<div id="datos">
+			</div>
+		</section>
+		  	  
+    </main>
+	
+	
+    
+    <footer>
+      <p>[Juan Adrian Perez]</p>
+    </footer>
+    <script src="cv.js"></script>
+  </body>
+</html>
