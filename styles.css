@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+   header a {
+    color: #fff;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="date"] {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  h2{
+	background: #bba402;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #panel_datos{
+	  display:none;
+  }
+  
+  #panel_form{
+	  display:none;
+  }
